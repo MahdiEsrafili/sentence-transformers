@@ -1,9 +1,9 @@
 transformers>=4.6.0,<5.0.0
 tokenizers>=0.10.3
 tqdm
---extra-index-url https://download.pytorch.org/whl/cpu
+-f https://download.pytorch.org/whl/cpu
 torch 
---extra-index-url https://download.pytorch.org/whl/cpu
+-f https://download.pytorch.org/whl/cpu
 torchvision 
 numpy
 scikit-learn
