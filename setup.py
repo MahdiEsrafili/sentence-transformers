@@ -21,8 +21,8 @@ setup(
     install_requires=[
         'transformers>=4.6.0,<5.0.0',
         'tqdm',
-        'torch>=1.6.0',
-        'torchvision',
+        'torch@https://download.pytorch.org/whl/cpu/torch-1.12.1%2Bcpu-cp37-cp37m-linux_x86_64.whl',
+        'torchvision@http://download.pytorch.org/whl/cpu/torchvision-0.13.1%2Bcpu-cp37-cp37m-linux_x86_64.whl',
         'numpy',
         'scikit-learn',
         'scipy',
